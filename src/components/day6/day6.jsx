@@ -8,8 +8,8 @@ function Day6(){
         <>
 
         <h1>All about state and props</h1>
-        {/* <Countercomp msg="Counter app using class comp"/> */}
-        {/* <AuthComponent/> */}
+        <Countercomp msg="Counter app using class comp"/>
+        <AuthComponent/>
         
         <Sortcards/>
         
