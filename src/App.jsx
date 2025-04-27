@@ -5,6 +5,7 @@ import Day5 from "./components/day5/day5"
 import Day6 from "./components/day6/day6"
 import Day7 from "./components/day7/day7"
 import Day8 from "./components/day8/day8"
+import Day9 from "./components/day9/day9"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       {/* <Day6/> */}
       {/* <Day7/> */}
       <Day8/>
+      <Day9/>
 
       
     

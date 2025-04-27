@@ -5,7 +5,7 @@ import Audiocomp from "./spinners"
 function Day8(){
     return(
         <>
-            <Mountcomp/>
+            <Mountcomp favColor="blue"/>
             {/* <Audiocomp/> */}
         </>
     )

@@ -10,7 +10,7 @@ class Audiocomp extends Component {
                 radius="9"
                 color="green"
                 ariaLabel="three-dots-loading"
-                wrapperStyle
+                wrapperStyleA
                 wrapperClass
             />
 
