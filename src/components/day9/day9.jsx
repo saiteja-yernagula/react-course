@@ -1,10 +1,16 @@
+import ParentComp from "./unmountcomp"
+import Updatingphase from "./update"
 
 
 function Day9(){
 
     return(
         <div>
-            day 9
+            {/* <Updatingphase favColor="green"/> */}
+
+            <ParentComp/>
+            
+
         </div>
     )
 }
