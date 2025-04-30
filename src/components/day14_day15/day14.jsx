@@ -4,6 +4,7 @@ import Contact from "./pages/contact"
 import Home from "./pages/home"
 import Setting from "./pages/setting"
 import Productdetails from "./pages/productdetail"
+import Invalidscreen from "./pages/invalid"
 
 
 function Day14(){
@@ -17,6 +18,7 @@ function Day14(){
             <Route path="/setting" Component={Setting}/>
 
             <Route path="/:category/:id" Component={Productdetails}/>
+            <Route path="*" Component={Invalidscreen}/>
         </Routes>
         </BrowserRouter>
               </>
