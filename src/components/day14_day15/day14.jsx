@@ -5,23 +5,42 @@ import Home from "./pages/home"
 import Setting from "./pages/setting"
 import Productdetails from "./pages/productdetail"
 import Invalidscreen from "./pages/invalid"
+import Login from "./pages/login"
 
 
-function Day14(){
+function Day14() {
     return (
         <>
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" Component={Home}/>
-            <Route path="/about" Component={About}/>
-            <Route path="/contact" Component={Contact}/>
-            <Route path="/setting" Component={Setting}/>
+            <BrowserRouter>
+                {true ?
+                    <>
+                        <Routes>
+                            <Route path="/" Component={Home} />
+                            <Route path="/about" Component={About} />
+                            <Route path="/contact" Component={Contact} />
+                            <Route path="/setting" Component={Setting} />
 
-            <Route path="/:category/:id" Component={Productdetails}/>
-            <Route path="*" Component={Invalidscreen}/>
-        </Routes>
-        </BrowserRouter>
-              </>
+                            <Route path="/:category/:id" Component={Productdetails} />
+                            <Route path="*" Component={Invalidscreen} />
+                        </Routes>
+                    </> :
+
+                    <>
+                        <Routes>
+                        <Route path="*" Component={Invalidscreen} />
+
+                            <Route path='/' Component={Login} />
+                        </Routes>
+                    </>
+
+                }
+
+
+
+
+
+            </BrowserRouter>
+        </>
     )
 }
 

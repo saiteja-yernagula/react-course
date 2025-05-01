@@ -12,7 +12,7 @@ import Day6 from "./components/day6/day6"
 import Day7 from "./components/day7/day7"
 import Day8 from "./components/day8/day8"
 import Day9 from "./components/day9/day9"
-import Day15 from "./components/day15/day15"
+import Day16 from "./components/day16/day16"
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
       {/* <Day12/> */}
       {/* <Day13/> */}
       <Day14/>
-      {/* <Day15/> */}
+      <Day16/>
 
       
     
