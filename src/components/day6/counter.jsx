@@ -80,6 +80,7 @@ class Countercomp extends Component{
     
                 {/* in this case the syntax is different - here passing arguments */}
                 <button onClick={()=>this.step(3)}>step increment</button>
+                <button onClick={()=>this.step(6)}>step increment</button>
                 </>:
                 "please subscribe to access"
             }
