@@ -16,6 +16,9 @@ import Day16 from "./components/day16/day16"
 import Day17 from "./components/day17/day17"
 import Day18 from "./components/day18/day18"
 import Day19 from "./components/day19/day19"
+import Day20 from "./components/day20/day20"
+import { Provider } from "react-redux"
+import { reduxstore } from "./components/day20/store"
 
 
 function App() {
@@ -39,7 +42,11 @@ function App() {
       <Day16/> */}
       {/* <Day17/> */}
       {/* <Day18/> */}
-      <Day19/>
+      {/* <Day19/> */}
+
+      <Provider store={reduxstore}>
+         <Day20/>
+      </Provider>
 
       
     
